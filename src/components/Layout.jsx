@@ -54,7 +54,7 @@ export default function Layout() {
   return <>
     <header className="site-header">
       <a href="#home" onClick={() => goTo('#home')} className="brand-lockup" aria-label="Aldhia Infratech home">
-        <img src="/assets/logo.png" alt="Aldhia Infratech logo" />
+        <img src="/assets/logo-nav.png" alt="Aldhia Infratech logo" />
       </a>
       <nav className={`main-nav ${menuOpen?'is-open':''}`}>
         {links.map(([label,path]) => <a key={path} href={path} onClick={(e)=>{e.preventDefault();goTo(path)}} className={active===path?'active':''}>{label}</a>)}

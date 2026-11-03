@@ -13,7 +13,7 @@ export default function Loader({ onComplete }) {
       exit={{ opacity: 0 }}
       transition={{ duration: .55 }}>
       <div className="loader-brand">
-        <img src="/assets/logo.png" alt="Aldhia Infratech" />
+        <img src="/assets/loader-logo.png" alt="Aldhia Infratech" />
       </div>
       <div className="tower-loader" aria-label="Power transmission line loading animation">
         <svg viewBox="0 0 720 230" role="img" aria-hidden="true">
