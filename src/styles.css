@@ -1300,3 +1300,27 @@ button {
   text-align: center;
   transform: translateY(-12px);
 }
+
+/* Loader logo - responsive sizing */
+
+/* Desktop */
+.loader-brand img {
+  width: 380px !important;
+  height: auto !important;
+  max-width: none;
+  object-fit: contain;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .loader-brand img {
+    width: 340px !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .loader-brand img {
+    width: 300px !important;
+  }
+}
