@@ -82,7 +82,7 @@ export default function Layout() {
             {/* <a href="https://maps.google.com/?q=Sulaimaniyah+Street+Riyadh" target="_blank" rel="noreferrer"><MapPin size={17}/> <span>{company.address}</span></a> */}
 
             {/* ungrey after the office opens  */} 
-            <a href="" target="_blank" rel="noreferrer"><MapPin size={17}/> <span>{company.address}</span></a>
+            <a target="_blank" rel="noreferrer"><MapPin size={17}/> <span>{company.address}</span></a>
 
 
             {/* <div className="footer-address">
