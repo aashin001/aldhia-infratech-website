@@ -4,8 +4,12 @@ import { company } from '../data'
 import Home from '../pages/Home'
 
 const links = [
-  ['Home','#home'], ['About','#about'], ['Services','#services'], ['Gallery','#gallery'], ['Contact','#contact']
+  ['Home','#home'],
+  ['About','#about'],
+  ['Services','#services'],
+  ['Contact','#contact']
 ]
+
 
 export default function Layout() {
   const [menuOpen,setMenuOpen] = useState(false)

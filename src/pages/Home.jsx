@@ -22,12 +22,12 @@ export default function Home() {
       </motion.div>
     </div>
     <div className="hero-bottom"><span>RIYADH, SAUDI ARABIA</span><span>{company.tagline}</span><a href="#about" aria-label="Scroll down"><ArrowDown size={18}/></a></div>
-    <div className="hero-side-label">ALDHIA INFRATECH <span>— EST. 2016</span></div>
+    <div className="hero-side-label">ALDHIA INFRATECH <span>— SAUDI ARABIA</span></div>
   </section>
 
   <section className="intro-section section-pad" id="about">
     <div className="intro-aside"><span className="eyebrow">WHO WE ARE</span><span className="intro-line"/></div>
-    <div className="intro-copy"><Reveal><h2>Building the backbone of <span>reliable power.</span></h2><p>Established in 2016, Aldhia Infratech is a specialized engineering and construction company focused on Overhead Transmission Line (OHTL) projects, including civil works, tower erection, stringing and wiring.</p><p>Driven by quality, safety and professionalism, we support the Kingdom’s expanding energy infrastructure and the objectives of Saudi Vision 2030.</p></Reveal></div>
+    <div className="intro-copy"><Reveal><h2>Building the backbone of <span>reliable power.</span></h2><p>Aldhia Infratech is a specialized engineering and construction company focused on Overhead Transmission Line (OHTL) projects, including civil works, tower erection, stringing and wiring.</p><p>Driven by quality, safety and professionalism, we support the Kingdom’s expanding energy infrastructure and the objectives of Saudi Vision 2030.</p></Reveal></div>
   </section>
 
   <section className="vision-mission">
@@ -70,26 +70,26 @@ export default function Home() {
     <div className="project-note"><p>Project experience includes work with leading EPC contractors such as L&amp;T, KPIL, KEC, Sterlite Power, SENELEC and UETCL.</p></div>
   </section> */}
 
-  <section className="section-pad capability-section" id="organization">
+  {/* <section className="section-pad capability-section" id="organization">
     <SectionHeading eyebrow="OUR PEOPLE" title="A structured team. A coordinated approach." description="Our company profile outlines a delivery structure spanning management, planning, construction, quality, safety, site engineering, supervision and field teams."/>
     <div className="values-strip">
       <div><ShieldCheck/><h3>Quality & safety</h3><p>Commitment to professional and responsible project execution.</p></div>
       <div><Zap/><h3>Engineering capability</h3><p>Specialized OHTL expertise supported by skilled manpower.</p></div>
       <div><Globe2/><h3>International experience</h3><p>Project experience across Asia and Africa.</p></div>
     </div>
-  </section>
+  </section> */}
 
-  <section className="section-pad gallery-section" id="gallery">
+  {/* <section className="section-pad gallery-section" id="gallery">
     <SectionHeading eyebrow="SITE ACTIVITIES" title="The work behind the network." description="A look at transmission line construction, tower erection and site safety activities from the Aldhia Infratech company profile."/>
     <div className="gallery-grid company-gallery">
       <figure className="gallery-item"><img src="/assets/profile/tower-erection-team.png" alt="Transmission tower erection activity" loading="lazy"/><figcaption>Tower erection</figcaption></figure>
       <figure className="gallery-item"><img src="/assets/profile/foundation-rebar-work.png" alt="Transmission tower foundation work" loading="lazy"/><figcaption>Foundation works</figcaption></figure>
       <figure className="gallery-item"><img src="/assets/profile/tower-climbing-technician.jpeg" alt="Technician working on a transmission tower" loading="lazy"/><figcaption>Field operations</figcaption></figure>
       <figure className="gallery-item"><img src="/assets/profile/site-medical-assessment.jpeg" alt="Site medical assessment" loading="lazy"/><figcaption>Daily medical assessment</figcaption></figure>
-      {/* <figure className="gallery-item"><img src="/assets/profile/hse-training-session.jpeg" alt="HSE training session" loading="lazy"/><figcaption>HSE training</figcaption></figure>
-      <figure className="gallery-item"><img src="/assets/profile/site-safety-team.jpeg" alt="Site safety team" loading="lazy"/><figcaption>Site safety team</figcaption></figure> */}
+      <figure className="gallery-item"><img src="/assets/profile/hse-training-session.jpeg" alt="HSE training session" loading="lazy"/><figcaption>HSE training</figcaption></figure>
+      <figure className="gallery-item"><img src="/assets/profile/site-safety-team.jpeg" alt="Site safety team" loading="lazy"/><figcaption>Site safety team</figcaption></figure>
     </div>
-  </section>
+  </section> */}
 
 
  </>
