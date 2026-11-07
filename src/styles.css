@@ -56,8 +56,8 @@ button {
   backdrop-filter:blur(18px)
 }
 .brand-lockup img {
-  width:180px;
-  height:80px;
+  width:218px;
+  height:93px;
   object-fit:contain;
   display:block
 }
@@ -889,8 +889,8 @@ button {
     padding:0 22px
   }
   .brand-lockup img {
-    width:165px;
-    height:70px;
+    width:188px;
+    height:81px;
     
   }
   .menu-toggle {
@@ -1162,8 +1162,8 @@ button {
   justify-content: center;
 }
 .footer-brand-left .footer-logo {
-  width: 300px;
-  height: 140px;
+  width: 340px;
+  height: 160px;
   object-fit: contain;
   /* background: #fff; */
   padding: 7px;
