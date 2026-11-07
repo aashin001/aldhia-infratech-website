@@ -1,7 +1,7 @@
 import { ArrowDown, ArrowUpRight, ShieldCheck, Zap, Globe2, MapPin, Phone, Mail } from 'lucide-react'
 import { motion } from 'framer-motion'
 import Reveal from '../components/Reveal'
-import { SectionHeading, Stats, ServiceGrid } from '../components/Sections'
+import { SectionHeading, ServiceGrid } from '../components/Sections'
 import { company, projects } from '../data'
 
 export default function Home() {
@@ -35,7 +35,7 @@ export default function Home() {
     <div><span className="eyebrow">OUR MISSION</span><h2>To provide innovative and high-quality power transmission solutions.</h2><p>Through advanced technology, skilled manpower and a commitment to safety, integrity, teamwork and customer satisfaction.</p></div>
   </section>
 
-  <section id="achievements"><Stats/></section>
+  {/* <section id="achievements"><Stats/></section> */}
 
   <section className="section-pad services-section" id="services">
     <SectionHeading eyebrow="WHAT WE DO" title="Expertise built around the power network." description="End-to-end support for overhead transmission line projects, delivered by experienced professionals and skilled teams."/>
