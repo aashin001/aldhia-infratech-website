@@ -35,7 +35,38 @@ export default function Home() {
     <div><span className="eyebrow">OUR MISSION</span><h2>To provide innovative and high-quality power transmission solutions.</h2><p>Through advanced technology, skilled manpower and a commitment to safety, integrity, teamwork and customer satisfaction.</p></div>
   </section>
 
-  <section id="achievements"><Stats/></section>
+  {/* old version */}
+
+  {/* <section id="achievements"><Stats/></section> */}
+
+  {/* old version */}
+
+
+
+  {/* new version  */}
+
+  <section id="achievements" className="highlights-section">
+  <div className="highlights-layout">
+
+    <motion.div
+      className="highlights-heading"
+      initial={{ opacity: 0, x: -30 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.8 }}
+    >
+      {/* <span>OUR</span> */}
+      <h2>HIGH<span>LIGHTS</span>.</h2>
+    </motion.div>
+
+    <div className="highlights-content">
+      <Stats />
+    </div>
+
+  </div>
+</section>
+
+{/* new version  */}
 
   <section className="section-pad services-section" id="services">
     <SectionHeading eyebrow="WHAT WE DO" title="Expertise built around the power network." description="End-to-end support for overhead transmission line projects, delivered by experienced professionals and skilled teams."/>

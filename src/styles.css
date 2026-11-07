@@ -1324,3 +1324,53 @@ button {
     width: 300px !important;
   }
 }
+
+
+/* Highlights section layout */
+.highlights-section {
+  background: #10263d;
+  padding: 65px 6%;
+}
+
+.highlights-layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  align-items: center;
+  gap: 45px;
+}
+
+.highlights-heading span {
+  color: #83c341;
+  font-size: 12px;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+.highlights-heading h2 {
+  color: #ffffff;
+  font-size: 38px;
+  line-height: 1.15;
+  margin-top: 15px;
+}
+
+.highlights-heading h2 span {
+  color: #83c341;
+  font-size: inherit;
+  letter-spacing: normal;
+}
+
+.highlights-content {
+  min-width: 0;
+}
+
+/* Tablet and mobile */
+@media (max-width: 800px) {
+  .highlights-layout {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .highlights-heading h2 {
+    font-size: 32px;
+  }
+}

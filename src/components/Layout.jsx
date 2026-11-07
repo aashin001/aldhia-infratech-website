@@ -73,10 +73,25 @@ export default function Layout() {
         </div>
         <div className="footer-contact-right">
           <span className="eyebrow">CONTACT ALDHIA · RIYADH</span>
-          <h2>Let’s power what comes next.</h2>
+          <h2>BUILD TO POWER.</h2>
           <p className="footer-contact-intro">Connect with our team for business and project enquiries.</p>
           <div className="footer-contact-list">
-            <a href="https://maps.google.com/?q=Sulaimaniyah+Street+Riyadh" target="_blank" rel="noreferrer"><MapPin size={17}/> <span>{company.address}</span></a>
+            {/* ungrey after the office opens  */} 
+
+
+            {/* <a href="https://maps.google.com/?q=Sulaimaniyah+Street+Riyadh" target="_blank" rel="noreferrer"><MapPin size={17}/> <span>{company.address}</span></a> */}
+
+            {/* ungrey after the office opens  */} 
+            <a href="" target="_blank" rel="noreferrer"><MapPin size={17}/> <span>{company.address}</span></a>
+
+
+            {/* <div className="footer-address">
+  <MapPin size={17}/>
+  <span>{company.address}</span>
+</div> */}
+
+
+
             <a href={`tel:${company.phone}`}><Phone size={17}/> <span>{company.phone}</span></a>
             <a href={`mailto:${company.email}`}><Mail size={17}/> <span>{company.email}</span></a>
           </div>
