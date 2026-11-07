@@ -1,7 +1,7 @@
 import { ArrowDown, ArrowUpRight, ShieldCheck, Zap, Globe2, MapPin, Phone, Mail } from 'lucide-react'
 import { motion } from 'framer-motion'
 import Reveal from '../components/Reveal'
-import { SectionHeading, Stats, ServiceGrid, ProjectGrid } from '../components/Sections'
+import { SectionHeading, Stats, ServiceGrid } from '../components/Sections'
 import { company, projects } from '../data'
 
 export default function Home() {
@@ -10,8 +10,12 @@ export default function Home() {
     <div className="hero-image" /><div className="hero-grid" />
     <div className="hero-content">
       <motion.span className="eyebrow hero-eyebrow" initial={{opacity:0,y:16}} animate={{opacity:1,y:0}} transition={{delay:.2}}>POWER TRANSMISSION · ENGINEERING · EXECUTION</motion.span>
-      <motion.h1 initial={{opacity:0,y:32}} animate={{opacity:1,y:0}} transition={{duration:.85,delay:.3}}>Engineering the<br/><em>power</em> to connect.</motion.h1>
-      <motion.p initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{delay:.52}}>Specialized engineering and construction capabilities for overhead transmission line projects across international markets.</motion.p>
+      {/* <motion.h1 initial={{opacity:0,y:32}} animate={{opacity:1,y:0}} transition={{duration:.85,delay:.3}}>Engineering the<br/><em>power</em> to connect.</motion.h1> */}
+      <motion.h1 initial={{opacity:0,y:32}} animate={{opacity:1,y:0}} transition={{duration:.85,delay:.3}}>
+  Engineering Excellence in<br/>
+  <em>Power Transmission</em>
+</motion.h1>
+      <motion.p initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{delay:.52}}>Specialized engineering and construction capabilities for overhead transmission line projects across Saudi Arabia.</motion.p>
       <motion.div className="hero-actions" initial={{opacity:0,y:16}} animate={{opacity:1,y:0}} transition={{delay:.7}}>
         <a href="#services" className="button button-green">Explore our expertise <ArrowUpRight size={18}/></a>
         <a href="#about" className="text-link">Discover Aldhia <ArrowUpRight size={17}/></a>
@@ -38,7 +42,7 @@ export default function Home() {
     <ServiceGrid limit={6}/>
   </section>
 
-  <section className="hse-section section-pad" id="hse">
+  {/* <section className="hse-section section-pad" id="hse">
     <div className="hse-copy">
       <Reveal><span className="eyebrow">HEALTH · SAFETY · ENVIRONMENT</span>
         <h2>Health, Safety, and<br/><em>Environmental Commitment</em></h2>
@@ -58,13 +62,13 @@ export default function Home() {
       <img className="hse-photo-small" src="/assets/profile/hse-training-session.jpeg" alt="Health and safety training session" loading="lazy"/>
       <span className="hse-photo-caption">SAFETY · TRAINING · RESPONSIBILITY</span>
     </div>
-  </section>
+  </section> */}
 
-  <section className="section-pad projects-section" id="projects">
+  {/* <section className="section-pad projects-section" id="projects">
     <SectionHeading eyebrow="PROJECT EXPERIENCE" title="Connected across borders." description="International transmission line project experience listed in the Aldhia Infratech company profile."/>
     <ProjectGrid limit={10}/>
     <div className="project-note"><p>Project experience includes work with leading EPC contractors such as L&amp;T, KPIL, KEC, Sterlite Power, SENELEC and UETCL.</p></div>
-  </section>
+  </section> */}
 
   <section className="section-pad capability-section" id="organization">
     <SectionHeading eyebrow="OUR PEOPLE" title="A structured team. A coordinated approach." description="Our company profile outlines a delivery structure spanning management, planning, construction, quality, safety, site engineering, supervision and field teams."/>
@@ -82,8 +86,8 @@ export default function Home() {
       <figure className="gallery-item"><img src="/assets/profile/foundation-rebar-work.png" alt="Transmission tower foundation work" loading="lazy"/><figcaption>Foundation works</figcaption></figure>
       <figure className="gallery-item"><img src="/assets/profile/tower-climbing-technician.jpeg" alt="Technician working on a transmission tower" loading="lazy"/><figcaption>Field operations</figcaption></figure>
       <figure className="gallery-item"><img src="/assets/profile/site-medical-assessment.jpeg" alt="Site medical assessment" loading="lazy"/><figcaption>Daily medical assessment</figcaption></figure>
-      <figure className="gallery-item"><img src="/assets/profile/hse-training-session.jpeg" alt="HSE training session" loading="lazy"/><figcaption>HSE training</figcaption></figure>
-      <figure className="gallery-item"><img src="/assets/profile/site-safety-team.jpeg" alt="Site safety team" loading="lazy"/><figcaption>Site safety team</figcaption></figure>
+      {/* <figure className="gallery-item"><img src="/assets/profile/hse-training-session.jpeg" alt="HSE training session" loading="lazy"/><figcaption>HSE training</figcaption></figure>
+      <figure className="gallery-item"><img src="/assets/profile/site-safety-team.jpeg" alt="Site safety team" loading="lazy"/><figcaption>Site safety team</figcaption></figure> */}
     </div>
   </section>
 

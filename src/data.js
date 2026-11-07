@@ -30,6 +30,6 @@ export const stats = [
 export const company = {
   phone: '+966-542933558',
   email: 'dhiaconstructions@gmail.com',
-  address: 'Sulaimaniyah Street, Riyadh, Saudi Arabia',
+  address: 'Riyadh, Saudi Arabia',
   tagline: 'Engineering Excellence in Power Transmission'
 }

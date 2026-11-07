@@ -4,8 +4,7 @@ import { company } from '../data'
 import Home from '../pages/Home'
 
 const links = [
-  ['Home','#home'], ['About','#about'], ['Services','#services'],
-  ['Projects','#projects'], ['HSE','#hse'], ['Gallery','#gallery'], ['Contact','#contact']
+  ['Home','#home'], ['About','#about'], ['Services','#services'], ['Gallery','#gallery'], ['Contact','#contact']
 ]
 
 export default function Layout() {
@@ -69,7 +68,7 @@ export default function Layout() {
           <p className="footer-tag">Engineering Excellence in Power Transmission</p>
         </div>
         <div className="footer-contact-right">
-          <span className="eyebrow">CONTACT ALDHIA · RIYADH, SAUDI ARABIA</span>
+          <span className="eyebrow">CONTACT ALDHIA · RIYADH</span>
           <h2>Let’s power what comes next.</h2>
           <p className="footer-contact-intro">Connect with our team for business and project enquiries.</p>
           <div className="footer-contact-list">

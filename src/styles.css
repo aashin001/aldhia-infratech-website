@@ -1261,3 +1261,25 @@ button {
     height: 82px;
   }
 }
+
+
+
+/* Company gallery alignment */
+.company-gallery {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.company-gallery .gallery-item {
+  height: 350px;
+}
+
+@media (max-width: 560px) {
+  .company-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .company-gallery .gallery-item {
+    height: 245px;
+  }
+}
